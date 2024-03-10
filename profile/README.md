@@ -1,4 +1,4 @@
-# <div style="display: flex; align-items: center; gap: 0.5rem;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" ><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg> [CodeLab](https://codelabzgz.github.io/)</div>
+# [CodeLab](https://codelabzgz.github.io/)
 
 CodeLab es una asociación de estudiantes que surge con el propósito de llevar hackatones a la escuela, de modo que se fomente la pasión por la programación al mismo tiempo que se promueve el networking entre estudiantes y profesionales.
 
