@@ -30,7 +30,7 @@ Somos un grupo de estudiantes de informática a quienes les gustan los retos de 
 ### Estudiante
 
 - Participando en los eventos
-- Ayudando a las tareas mencionadas [anteriormente](#¿qué-hacemos)
+- Ayudando a las tareas mencionadas [anteriormente](#qué-hacemos)
 - Uniendote a CodeLab
 
 ### Empresa
