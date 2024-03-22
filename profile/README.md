@@ -17,13 +17,15 @@ Los integrantes de CodeLab asumimos diversas responsabilidades para organizar es
 
 ## ¿Quiénes somos?
 
-Somos un grupo de estudiantes de informática a quienes les gustan los retos de programación. Actualmente, en el equipo estamos:
+Somos un grupo de estudiantes de informática a quienes les gustan los retos de programación. Actualmente, en el equipo (activo) estamos:
 
 - [Jorge Aranda](https://www.linkedin.com/in/jorge-aranda-sanz-b64874226/)
 - [Lucas Cauhé](https://www.linkedin.com/in/lucas-cauh%C3%A9-vi%C3%B1ao-b103b51a4/)
 - [Darío Marcos](https://www.linkedin.com/in/dar%C3%ADo-marcos-casal%C3%A9-3b9551246/)
 - [Francisco Javier Pizarro](https://www.linkedin.com/in/franciscopizarrojavier/)
 - [Héctor Toral](https://www.linkedin.com/in/hec7or/)
+
+Aunque han pasado por aquí numerosos estudiantes, algunos de ellos se pueden encontrar en la sección de [people](https://github.com/orgs/CodeLabZGZ/people). Además, recibimos el respaldo de [Francisco Javier Lopéz Pellicer](https://www.linkedin.com/in/franciscojlopezpellicer/), quien fue la persona que nos motivó a unirnos a CodeLab.
 
 ## ¿Cómo puedo ayudar?
 
