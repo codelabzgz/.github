@@ -6,6 +6,10 @@ CodeLab es una asociación de estudiantes que surge con el propósito de llevar 
   <img src="https://profile-counter.glitch.me/CodeLabZGZ/count.svg"  />
 </div>
 
+[![Website Badge](https://img.shields.io/badge/Website-FFFFFF?logo=hackthebox&logoColor=000&style=for-the-badge)](https://codelabzgz.github.io/)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=for-the-badge)](https://www.linkedin.com/company/codelabzgz)
+[![Discord Badge](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff&style=for-the-badge)](https://discord.gg/QHe9YYDtGf)
+
 ## ¿Qué hacemos?
 
 Los integrantes de CodeLab asumimos diversas responsabilidades para organizar estos eventos, como por ejemplo:
