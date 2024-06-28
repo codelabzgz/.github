@@ -2,6 +2,10 @@
 
 CodeLab es una asociación de estudiantes que surge con el propósito de llevar hackatones a la escuela, de modo que se fomente la pasión por la programación al mismo tiempo que se promueve el networking entre estudiantes y profesionales.
 
+<div align="center">
+  <img src="https://profile-counter.glitch.me/hec7orci7o/count.svg?"  />
+</div>
+
 ## ¿Qué hacemos?
 
 Los integrantes de CodeLab asumimos diversas responsabilidades para organizar estos eventos, como por ejemplo:
