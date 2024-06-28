@@ -17,7 +17,7 @@ Los integrantes de CodeLab asumimos diversas responsabilidades para organizar es
 
 - Gestión de redes sociales.
 - Generación de ideas para desafíos y cursos.
-- **Preparación de la infraestructura** para el desarrollo de estos eventos.
+- Preparación de la infraestructura para el desarrollo de estos eventos.
 - Elaboración de elementos visuales para atraer a los participantes.
 - Interacción con empresas en busca de patrocinio.
 
