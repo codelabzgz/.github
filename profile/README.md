@@ -40,6 +40,9 @@ Aunque han pasado por aquí numerosos estudiantes, algunos de ellos se pueden en
 
 ## ¿Cómo puedo ayudar?
 
+> [!NOTE]
+> Si tienes alguna idea, reto o sugerencia, no dudes en compartirla [aquí](https://github.com/orgs/CodeLabZGZ/discussions).
+
 ### Estudiante
 
 - Participando en los eventos
