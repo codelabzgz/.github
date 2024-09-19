@@ -37,7 +37,7 @@ Somos un grupo de estudiantes de informática a quienes les gustan los retos de 
 - [Francisco Javier Pizarro](https://www.linkedin.com/in/franciscopizarrojavier/)
 - [Héctor Toral](https://www.linkedin.com/in/hec7or/)
 
-Aunque han pasado por aquí numerosos estudiantes, algunos de ellos se pueden encontrar en la sección de [people](https://github.com/orgs/CodeLabZGZ/people). Además, recibimos el respaldo de [Francisco Javier Lopéz Pellicer](https://www.linkedin.com/in/franciscojlopezpellicer/), quien fue la persona que nos motivó a unirnos a CodeLab.
+Aunque han pasado por aquí numerosos estudiantes, algunos de ellos se pueden encontrar en la sección de [people](https://github.com/orgs/CodeLabZGZ/people). Además, recibimos el respaldo de [Francisco Javier López Pellicer](https://www.linkedin.com/in/franciscojlopezpellicer/), quien fue la persona que nos motivó a unirnos a CodeLab.
 
 ## ¿Cómo puedo ayudar?
 
