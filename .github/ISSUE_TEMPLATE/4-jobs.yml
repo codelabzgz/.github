@@ -107,6 +107,7 @@ body:
       label: Experience Required
       description: What level of experience is required for this job?
       options:
+        - No experience
         - Junior (< 2 years)
         - Mid-level (2-5 years)
         - Senior (> 5 years)
