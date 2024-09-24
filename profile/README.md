@@ -1,4 +1,4 @@
-# [CodeLab](https://codelabzgz.github.io/)
+# [CodeLab](https://codelabzgz.dev/)
 
 CodeLab es una asociación de estudiantes que surge con el propósito de llevar hackatones a la escuela, de modo que se fomente la pasión por la programación al mismo tiempo que se promueve el networking entre estudiantes y profesionales.
 
@@ -8,7 +8,7 @@ CodeLab es una asociación de estudiantes que surge con el propósito de llevar 
 
 <br/>
 
-[![Website Badge](https://img.shields.io/badge/Website-FFFFFF?logo=hackthebox&logoColor=000&style=for-the-badge)](https://codelabzgz.github.io/)
+[![Website Badge](https://img.shields.io/badge/Website-FFFFFF?logo=hackthebox&logoColor=000&style=for-the-badge)](https://codelabzgz.dev/)
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=for-the-badge)](https://www.linkedin.com/company/codelabzgz)
 [![Discord Badge](https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=fff&style=for-the-badge)](https://discord.gg/QHe9YYDtGf)
 [![Instagram Badge](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=fff&style=for-the-badge)](https://www.instagram.com/codelabzgz/)
