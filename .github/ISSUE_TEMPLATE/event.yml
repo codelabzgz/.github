@@ -71,7 +71,9 @@ body:
       label: Event Type
       description: What type of event is this?
       options:
+        - workshop
         - hackathon
+        - datathon
         - ideathon
         - ctf
       default: 0
