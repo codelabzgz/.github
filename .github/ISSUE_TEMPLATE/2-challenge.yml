@@ -50,6 +50,16 @@ body:
       required: true
 
   - type: input
+    id: runnerUrl
+    attributes:
+      label: Runner URL (Optional)
+      description: Enter the URL of the judge0 instance for the challenge, if applicable.
+      placeholder: e.g., https://example.com/runner
+    validations:
+      required: false
+      format: url
+
+  - type: input
     id: validatorUrl
     attributes:
       label: Validator URL (Optional)

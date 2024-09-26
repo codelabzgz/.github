@@ -29,11 +29,24 @@ body:
       required: true
       format: email
 
+  - type: input
+    id: linkedin
+    attributes:
+      label: LinkedIn
+      description: Enter your LinkedIn ID for acknowledgement purposes.
+      placeholder: e.g., johndoe
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
-        ### Blog Post Details
-        Please provide the details of the blog post you wish to publish.
+      ### Blog Post Details
+      Please provide the details of the blog post you wish to publish.
+
+      **Share this content!**  
+      You can send us the post content via **email** or share it through a **link to a GitHub gist**.  
+      We would love to hear your thoughts and ideas!
 
   - type: input
     id: title
