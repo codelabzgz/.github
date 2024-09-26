@@ -53,7 +53,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: jobDescription
     attributes:
       label: Job Description
@@ -142,7 +142,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: responsibilities
     attributes:
       label: Candidate Responsibilities
@@ -151,7 +151,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: desirable
     attributes:
       label: Desired Skills
@@ -160,7 +160,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: textarea
     id: benefits
     attributes:
       label: Benefits for the New Employee
