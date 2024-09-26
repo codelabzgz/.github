@@ -1,5 +1,5 @@
 name: 💼 New Job Offer
-description: Form to request the publication of a job offer
+description: Form to request the publication of a job offer.
 title: "[JOB OFFER REQ] <title>"
 labels: [job offer request]
 assignees: hec7orci7o, ZenithGD
@@ -8,13 +8,13 @@ body:
     attributes:
       value: |
         ### Contact Information
-        Please provide the following details to help us get in touch with you regarding this job offer request.
+        Please provide your contact details to help us connect with you regarding this job offer request.
 
   - type: input
     id: recruiterName
     attributes:
       label: Recruiter Name
-      description: Enter the name of the recruiter or organization publishing the job offer.
+      description: Enter the name of the recruiter or organization posting the job offer.
       placeholder: e.g., John Doe or XYZ Corp
     validations:
       required: true
@@ -23,24 +23,42 @@ body:
     id: recruiterEmail
     attributes:
       label: Recruiter Email
-      description: Enter the email address of the recruiter for contact purposes.
+      description: Please provide the email address for the primary contact regarding this job.
       placeholder: e.g., john.doe@example.com
     validations:
       required: true
       format: email
 
+  - type: input
+    id: recruiterLinkedin
+    attributes:
+      label: Recruiter LinkedIn
+      description: Enter the LinkedIn profile ID for the recruiter or organization posting the job.
+      placeholder: e.g., https://www.linkedin.com/in/johndoe (last part only: johndoe)
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
         ### Job Offer Details
-        Please provide detailed information about the job offer.
+        Please provide detailed information about the job position being offered.
 
   - type: input
     id: jobTitle
     attributes:
       label: Job Title
-      description: What is the title of the job position?
+      description: What is the official title of the job position?
       placeholder: e.g., Senior Software Engineer
+    validations:
+      required: true
+
+  - type: input
+    id: jobDescription
+    attributes:
+      label: Job Description
+      description: Outline the key responsibilities and requirements for this position.
+      placeholder: Describe what you’re looking for in a candidate.
     validations:
       required: true
 
@@ -48,7 +66,7 @@ body:
     id: company
     attributes:
       label: Company Name
-      description: Enter the name of the company offering the position.
+      description: What is the name of the company offering this position?
       placeholder: e.g., XYZ Corp
     validations:
       required: true
@@ -57,7 +75,7 @@ body:
     id: jobType
     attributes:
       label: Job Type
-      description: What type of job is this?
+      description: What type of employment is being offered?
       options:
         - Full-time
         - Part-time
@@ -73,17 +91,16 @@ body:
     id: otherJobType
     attributes:
       label: Other Job Type (if selected)
-      description: If you selected "Other" above, please specify the type of job.
+      description: If you selected "Other," please specify the type of job.
       placeholder: e.g., Consultant
     validations:
       required: false
-      conditional: jobType == 'Other'
 
   - type: dropdown
     id: jobLocationType
     attributes:
       label: Work Environment
-      description: Is the job remote, on-site, or hybrid?
+      description: Is this job remote, on-site, or a hybrid arrangement?
       options:
         - Remote
         - On-site
@@ -96,7 +113,7 @@ body:
     id: jobLocation
     attributes:
       label: Job Location
-      description: If the job is on-site or hybrid, where is the physical location?
+      description: If the job is on-site or hybrid, please provide the physical location.
       placeholder: e.g., New York, NY
     validations:
       required: false
@@ -105,7 +122,7 @@ body:
     id: experienceLevel
     attributes:
       label: Experience Required
-      description: What level of experience is required for this job?
+      description: What level of experience is necessary for this role?
       options:
         - No experience
         - Junior (< 2 years)
@@ -119,23 +136,50 @@ body:
   - type: input
     id: salary
     attributes:
-      label: Salary (optional)
-      description: Specify the salary range or leave blank if not disclosed.
+      label: Salary Range
+      description: Please specify the salary range for this position. Note that, as per [DOUE-L-2023-80668](https://www.boe.es/buscar/doc.php?id=DOUE-L-2023-80668), the salary range cannot be left blank after 2026.
       placeholder: e.g., $60,000 - $80,000 per year
     validations:
-      required: false
+      required: true
+
+  - type: input
+    id: responsibilities
+    attributes:
+      label: Candidate Responsibilities
+      description: What tasks will the candidate be expected to perform upon starting the job?
+      placeholder: Please provide a bullet list.
+    validations:
+      required: true
+
+  - type: input
+    id: desirable
+    attributes:
+      label: Desired Skills
+      description: What skills should the ideal candidate possess?
+      placeholder: A bullet list is preferred.
+    validations:
+      required: true
+
+  - type: input
+    id: benefits
+    attributes:
+      label: Benefits for the New Employee
+      description: What unique benefits does your offer include that might attract candidates?
+      placeholder: A bullet list is fine.
+    validations:
+      required: true
 
   - type: markdown
     attributes:
       value: |
         ### Application Details
-        Provide information regarding the application process.
+        Please provide information on how candidates can apply.
 
   - type: input
     id: applicationDeadline
     attributes:
       label: Application Deadline
-      description: What is the deadline to apply for the job?
+      description: What is the last date for candidates to submit their applications?
       placeholder: e.g., yyyy-mm-dd
     validations:
       required: true
@@ -144,19 +188,10 @@ body:
     id: applicationLink
     attributes:
       label: Application Link
-      description: Provide a link where candidates can apply for the position.
+      description: Provide a link for candidates to apply for this position.
       placeholder: e.g., https://www.linkedin.com/jobs/view/1234567890
     validations:
       required: true
-
-  - type: input
-    id: alternateApplicationLink
-    attributes:
-      label: Alternate Application Link
-      description: Provide an alternate link if the primary link is unavailable or not working.
-      placeholder: e.g., https://company.com/careers/apply
-    validations:
-      required: false
 
   - type: markdown
     attributes:

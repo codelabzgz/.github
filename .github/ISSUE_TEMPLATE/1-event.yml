@@ -1,5 +1,5 @@
 name: 🗓️ New Event
-description: Form to request the creation of an event
+description: Form to request the creation of an event.
 title: "[EVENT REQ] <title>"
 labels: [event request]
 assignees: hec7orci7o, ZenithGD
@@ -8,13 +8,13 @@ body:
     attributes:
       value: |
         ### Contact Information
-        Please provide the following details to help us get in touch with you regarding this event request.
+        Please provide your contact details so we can reach out regarding your event request.
 
   - type: input
     id: publisherName
     attributes:
       label: Publisher Name
-      description: Enter the name of the individual or organization publishing the event.
+      description: Enter the name of the person or organization hosting the event.
       placeholder: e.g., John Doe or XYZ Corp
     validations:
       required: true
@@ -23,32 +23,50 @@ body:
     id: publisherEmail
     attributes:
       label: Publisher Email
-      description: Enter the email address of the publisher for contact purposes.
+      description: Enter the email address for the main contact regarding this event.
       placeholder: e.g., john.doe@example.com
     validations:
       required: true
       format: email
 
+  - type: input
+    id: publisherLinkedin
+    attributes:
+      label: Publisher LinkedIn
+      description: Provide the LinkedIn profile ID of the publisher for professional verification.
+      placeholder: e.g., https://www.linkedin.com/in/johndoe (just the last part: johndoe)
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
         ### Event Details
-        Please provide detailed information about the event.
+        Please fill in the specifics about the event you’re planning.
 
   - type: input
     id: title
     attributes:
-      label: Title
-      description: What is the name of the event?
+      label: Event Title
+      description: What’s the official name of the event?
       placeholder: e.g., Unicode 2024
+    validations:
+      required: true
+
+  - type: input
+    id: description
+    attributes:
+      label: Event Description
+      description: Describe the event, including its purpose and what attendees can expect.
+      placeholder: Share what your event is about and any key highlights.
     validations:
       required: true
 
   - type: input
     id: banner
     attributes:
-      label: Banner
-      description: Do you want to add a banner to your event?
+      label: Event Banner
+      description: Optionally, you can add a banner image for your event. Please provide a URL.
       placeholder: e.g., https://unsplash.com/...
     validations:
       required: false
@@ -56,11 +74,11 @@ body:
   - type: dropdown
     id: visibility
     attributes:
-      label: Visibility
-      description: Is the event public or private?
+      label: Event Visibility
+      description: Is this event open to the public or restricted to certain attendees?
       options:
-        - public
-        - private
+        - Public
+        - Private
       default: 0
     validations:
       required: true
@@ -71,29 +89,38 @@ body:
       label: Event Type
       description: What type of event is this?
       options:
-        - workshop
-        - hackathon
-        - datathon
-        - ideathon
-        - ctf
+        - Workshop
+        - Hackathon
+        - Datathon
+        - Ideathon
+        - Capture The Flag (CTF)
       default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: challenges
+    attributes:
+      label: Number of Challenges
+      description: How many challenges will participants face during the event?
+      placeholder: e.g., 3
     validations:
       required: true
 
   - type: input
     id: location
     attributes:
-      label: Location
-      description: Will the event be in-person or online?
-      placeholder: e.g., EINA, ES
+      label: Event Location
+      description: Will the event be in-person or online? Please specify the venue or platform.
+      placeholder: e.g., EINA, Zaragoza, ES or Online via Zoom
     validations:
       required: true
 
   - type: input
     id: startDate
     attributes:
-      label: Start Date
-      description: What is the event's start date and time?
+      label: Start Date & Time
+      description: When does the event start? Please provide the date and time.
       placeholder: e.g., yyyy-mm-dd hh:mm:ss
     validations:
       required: true
@@ -101,9 +128,18 @@ body:
   - type: input
     id: endDate
     attributes:
-      label: End Date
-      description: What is the event's end date and time?
+      label: End Date & Time
+      description: When does the event end? Please provide the date and time.
       placeholder: e.g., yyyy-mm-dd hh:mm:ss
+    validations:
+      required: true
+
+  - type: input
+    id: prizes
+    attributes:
+      label: Prizes
+      description: What prizes will be awarded to participants? Please list them clearly.
+      placeholder: A bullet list is preferable
     validations:
       required: true
 
@@ -111,7 +147,7 @@ body:
     attributes:
       value: |
         ### Codelab
-        Thank you for providing the details of your event request. If you have any questions or need further assistance, please contact us at [codelabzgz@unizar.es](mailto:codelabzgz@unizar.es).
+        Thank you for providing the details of your event request. If you have any questions or need further assistance, feel free to contact us at [codelabzgz@unizar.es](mailto:codelabzgz@unizar.es).
 
         **Relevant Links:**
         - [LinkedIn](https://www.linkedin.com/company/codelabzgz)
