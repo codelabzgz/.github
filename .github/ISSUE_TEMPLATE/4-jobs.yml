@@ -2,7 +2,7 @@ name: 💼 New Job Offer
 description: Form to request the publication of a job offer.
 title: "[JOB OFFER REQ] <title>"
 labels: [job offer request]
-assignees: hec7orci7o, ZenithGD
+assignees: [hec7orci7o, ZenithGD]
 body:
   - type: markdown
     attributes:
@@ -34,7 +34,7 @@ body:
     attributes:
       label: Recruiter LinkedIn
       description: Enter the LinkedIn profile ID for the recruiter or organization posting the job.
-      placeholder: e.g., https://www.linkedin.com/in/johndoe (last part only: johndoe)
+      placeholder: e.g., johndoe
     validations:
       required: true
 
